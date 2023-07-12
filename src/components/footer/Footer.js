@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import "./footer.scss"
 
 export default function Footer() {
   return (
-    <div>Footer</div>
+    <div className='footer'>
+      <div>Movie App</div>
+      <div>©2021, Movie, Inc. or its affiliates</div>
+    </div>
   )
 }

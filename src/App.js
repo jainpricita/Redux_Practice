@@ -4,7 +4,7 @@ import Home from "./components/home/Home";
 import MovieDetail from "./components/movieDetail/MovieDetail";
 import PageNotFound from "./components/pageNotFound/PageNotFound";
 import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer"
+import Footer from "./components/footer/Footer";
 import "./App.scss";
 
 const router = createBrowserRouter([
@@ -25,7 +25,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <div className="container">
       <RouterProvider router={router}/>
+      </div>
       <Footer/>
     </div>
   );
