@@ -8,7 +8,6 @@ This is a practice project that leverages Redux for state management and utilize
 
 - React
 - Redux
-- OMDB API
 - HTML
 - CSS
 - JavaScript
